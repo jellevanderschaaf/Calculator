@@ -1,0 +1,21 @@
+.header {
+    text-align: center;
+}
+
+.container1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sumresult {
+    display: inline-block;
+}
+
+#subtractresult {
+    display: inline-block;
+}
