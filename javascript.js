@@ -10,7 +10,6 @@ function calculatesum() {
 document.getElementById('sum').addEventListener('click', calculatesum);
 
 
-
 function calculatesubtract() {
     var input3 = Number(document.getElementById('input_3').value);
     var input4 = Number(document.getElementById('input_4').value);
