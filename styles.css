@@ -24,7 +24,7 @@
     line-height: 75px;
 }
 
-.display {
+#display {
     grid-area: dp;
     width: 245px;
 }

@@ -1,22 +1,19 @@
-function calculatesum() {
-    var input1 = Number(document.getElementById('input_1').value);
-    var input2 = Number(document.getElementById('input_2').value);
 
-    var output = input1 + input2;
-    
-    document.getElementById('sumresult').innerHTML = output;
+function pressButton1() {
+    document.getElementById('display').innerHTML = 1;
 }
 
-document.getElementById('sum').addEventListener('click', calculatesum);
+document.getElementById('button_1').addEventListener('click', pressButton1);
 
-
-function calculatesubtract() {
-    var input3 = Number(document.getElementById('input_3').value);
-    var input4 = Number(document.getElementById('input_4').value);
-
-    var output = input3 - input4;
-    
-    document.getElementById('subtractresult').innerHTML = output;
+function pressButton2() {
+    document.getElementById('display').innerHTML = 2;
 }
 
-document.getElementById('subtract').addEventListener('click', calculatesubtract);
+document.getElementById('button_2').addEventListener('click', pressButton2);
+
+function pressButton3() {
+    document.getElementById('display').innerHTML = 3;
+}
+
+document.getElementById('button_3').addEventListener('click', pressButton3);
+
