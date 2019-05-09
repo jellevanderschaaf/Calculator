@@ -1,21 +1,30 @@
 .header {
     text-align: center;
+    padding-bottom: 50px;
 }
 
-.container1 {
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(75px 75px 75px 75px);
+    grid-gap: 10px;
+    grid-template-areas: 'dp dp dp b1'
+                      'b2 b3 b4 b5'
+                      'b6 b7 b8 b9'
+                      'b10 b11 b12 b13'
+                      'b14 b15 b16 b17';
+}
+
+.grid-item {
+    background-color: lightgrey;
+    width: 75px;
+    height: 75px;
     text-align: center;
-    padding-top: 100px;
+    line-height: 75px;
 }
 
-.container2 {
-    text-align: center;
-    padding-top: 10px;
-}
-
-#sumresult {
-    display: inline-block;
-}
-
-#subtractresult {
-    display: inline-block;
+.display {
+    grid-area: dp;
+    width: 245px;
 }
