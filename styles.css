@@ -1,5 +1,6 @@
 .header {
     text-align: center;
+    padding-top: 25px;
     padding-bottom: 50px;
 }
 
@@ -17,14 +18,22 @@
 }
 
 .grid-item {
-    background-color: lightgrey;
     width: 75px;
     height: 75px;
     text-align: center;
-    line-height: 75px;
+    
 }
 
 #display {
     grid-area: dp;
     width: 245px;
+    height: 75px;
+    border-color: #6c757d;
+    text-align: center;
+    overflow: hidden;
 }
+
+#display:focus {
+    box-shadow: 0 0 0 0.2rem #B5B9BC;
+}
+
